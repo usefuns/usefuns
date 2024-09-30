@@ -22,7 +22,7 @@ const AddAgency = () => {
   const admin = localStorage.getItem("AdminLoginData")
   let adminUser = JSON.parse(admin)
   useEffect(() => {
-    fetch('https://fun2fun.live/admin/adminUser/getall')
+    fetch('https://yoyo560live.live/admin/adminUser/getall')
       .then(response => response.json())
       .then(data => {
         if (data.status === 1) {
@@ -33,7 +33,7 @@ const AddAgency = () => {
       .catch(error => {
         console.error('Error fetching admin users:', error);
       });
-    fetch('https://fun2fun.live/admin/subAdminUser/getall')
+    fetch('https://yoyo560live.live/admin/subAdminUser/getall')
       .then(response => response.json())
       .then(data => {
         if (data.status === 1) {
@@ -135,7 +135,7 @@ const AddAgency = () => {
     formDataToSend.append('email', formData.email);
 
     try {
-      const response = await fetch('https://fun2fun.live/admin/agency/add', {
+      const response = await fetch('https://yoyo560live.live/admin/agency/add', {
         method: 'POST',
         body: formDataToSend,
       });

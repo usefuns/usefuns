@@ -14,7 +14,7 @@ function ViewTags() {
   }, [])
   const fetchData = async () => {
     try {
-      const response = await fetch("https://fun2fun.live/admin/tags/getall");
+      const response = await fetch("https://yoyo560live.live/admin/tags/getall");
       if (!response.ok) {
         throw new Error("An error occupied");
       };
@@ -28,7 +28,7 @@ function ViewTags() {
   const handleConfirmDelete = async (id) => {
 
     try {
-      const response = await fetch(`https://fun2fun.live/admin/tags/delete/${id}`, {
+      const response = await fetch(`https://yoyo560live.live/admin/tags/delete/${id}`, {
         method: 'DELETE',
       });
 

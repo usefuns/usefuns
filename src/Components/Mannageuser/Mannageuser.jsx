@@ -11,7 +11,7 @@ const Mannageuser = () => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          "https://fun2fun.live/user/getall"
+          "https://yoyo560live.live/user/getall"
         );
         const jsonData = await response.json();
         setData(jsonData.data);
@@ -25,7 +25,7 @@ const Mannageuser = () => {
 
   const fetchall = async () => {
     try {
-      const response = await fetch("https://fun2fun.live/user/getall");
+      const response = await fetch("https://yoyo560live.live/user/getall");
       const jsonData = await response.json();
       setData(jsonData.data);
     } catch (error) {
@@ -35,7 +35,7 @@ const Mannageuser = () => {
 
   const deleteUserHandler = () => {
     const id = localStorage.getItem("userId");
-    const url = `https://fun2fun.live/admin/user/delete/${id}`;
+    const url = `https://yoyo560live.live/admin/user/delete/${id}`;
     fetch(url, {
       method: "DELETE",
       headers: {

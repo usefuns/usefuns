@@ -22,7 +22,7 @@ const ViewCoinSeller = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch(`https://fun2fun.live/admin/coinSeller/getall`);
+      const response = await fetch(`https://yoyo560live.live/admin/coinSeller/getall`);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
@@ -61,7 +61,7 @@ const ViewCoinSeller = () => {
 
     try {
       if (selectedUser) {
-        const response = await fetch(`https://fun2fun.live/admin/coinSeller/update/${selectedUser.userId}`, {
+        const response = await fetch(`https://yoyo560live.live/admin/coinSeller/update/${selectedUser.userId}`, {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
@@ -98,7 +98,7 @@ const ViewCoinSeller = () => {
   const confirmDelete = async (id) => {
     try {
       const response = await fetch(
-        `https://fun2fun.live/admin/coinSeller/delete/${id}`,
+        `https://yoyo560live.live/admin/coinSeller/delete/${id}`,
         {
           method: 'DELETE',
           headers: {

@@ -13,7 +13,7 @@ function ViewSpecialId() {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        "https://fun2fun.live/admin/specialId/getall"
+        "https://yoyo560live.live/admin/specialId/getall"
       );
       if (!response.ok) {
         throw new Error("An error occupied");
@@ -28,7 +28,7 @@ function ViewSpecialId() {
   const handleConfirmDelete = async (id) => {
 
     try {
-      const response = await fetch(`https://fun2fun.live/admin/specialId/delete/${id}`, {
+      const response = await fetch(`https://yoyo560live.live/admin/specialId/delete/${id}`, {
         method: 'DELETE',
       });
 

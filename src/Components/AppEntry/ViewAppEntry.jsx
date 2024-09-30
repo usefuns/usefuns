@@ -12,7 +12,7 @@ const ViewAppEntry = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("https://fun2fun.live/admin/appEntry/getall");
+        const response = await fetch("https://yoyo560live.live/admin/appEntry/getall");
         if (!response.ok) {
           throw new Error("Network problem");
         }
@@ -50,7 +50,7 @@ const ViewAppEntry = () => {
       console.log(selectedItemData._id, "Selected Id");
 
       try {
-        const response = await fetch(`https://fun2fun.live/admin/appEntry/delete/${selectedItemData._id}`, {
+        const response = await fetch(`https://yoyo560live.live/admin/appEntry/delete/${selectedItemData._id}`, {
           method: 'DELETE',
         });
 

@@ -19,7 +19,7 @@ const UserProfile = () => {
 
   })
   useEffect(() => {
-    fetch("https://fun2fun.live/admin/get")
+    fetch("https://yoyo560live.live/admin/get")
       .then((response) => response.json())
       .then((responseData) => {
         if (responseData.data && responseData.data.length > 0) {
@@ -43,7 +43,7 @@ const UserProfile = () => {
   }, []);
 
   const handleEditProfile = async () => {
-    const apiUrl = "https://fun2fun.live/admin/update";
+    const apiUrl = "https://yoyo560live.live/admin/update";
     const authToken = localStorage.getItem("MasterAdmintoken");
 
     const finalFormData = new FormData();

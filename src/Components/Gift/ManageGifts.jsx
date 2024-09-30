@@ -23,7 +23,7 @@ function ManageGift() {
   const fetchCategory = async () => {
     try {
       const response = await fetch(
-        `https://fun2fun.live/admin/giftCategory/getall`
+        `https://yoyo560live.live/admin/giftCategory/getall`
       );
       const jsonData = await response.json();
       console.log(jsonData.data)
@@ -34,7 +34,7 @@ function ManageGift() {
   };
   const fetchData = async () => {
     try {
-      const response = await fetch("https://fun2fun.live/admin/gift/getall");
+      const response = await fetch("https://yoyo560live.live/admin/gift/getall");
       if (!response.ok) {
         throw new Error("network issue")
       }
@@ -51,7 +51,7 @@ function ManageGift() {
   const confirmDelete = async (id) => {
     try {
       const response = await fetch(
-        `https://fun2fun.live/admin/gift/delete/${id}`,
+        `https://yoyo560live.live/admin/gift/delete/${id}`,
         {
           method: 'DELETE',
           headers: {
@@ -101,7 +101,7 @@ function ManageGift() {
     formDataToSend.append('category_name', selectedCategory);
     console.log(editedData._id)
     try {
-      const response = await fetch(`https://fun2fun.live/admin/gift/update/${editedData._id}`, {
+      const response = await fetch(`https://yoyo560live.live/admin/gift/update/${editedData._id}`, {
         method: 'PUT',
         body: formDataToSend,
       });

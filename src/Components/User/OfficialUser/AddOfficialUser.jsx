@@ -23,7 +23,7 @@ const AddOfficialUser = () => {
     }
 
     try {
-      const response = await fetch('https://fun2fun.live/admin/make/officialUser', {
+      const response = await fetch('https://yoyo560live.live/admin/make/officialUser', {
         method: 'POST',
         body: JSON.stringify({
           userId: formData.userId,

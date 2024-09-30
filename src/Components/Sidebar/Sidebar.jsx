@@ -170,7 +170,7 @@ const Signout1 = () => {
   const navigate = useNavigate();
   const handleSignOut = async () => {
 
-    const apiUrl = "https://fun2fun.live/admin/adminuser/logout";
+    const apiUrl = "https://yoyo560live.live/admin/adminuser/logout";
     const authToken = localStorage.getItem("Admintoken");
 
     try {
@@ -209,7 +209,7 @@ const Signout2 = () => {
   const navigate = useNavigate();
   const handleSignOut = async () => {
 
-    const apiUrl = "https://fun2fun.live/admin/subadminuser/logout";
+    const apiUrl = "https://yoyo560live.live/admin/subadminuser/logout";
     const authToken = localStorage.getItem("SubAdmintoken");
 
     try {
@@ -248,7 +248,7 @@ const Signout3 = () => {
   const navigate = useNavigate();
   const handleSignOut = async () => {
 
-    const apiUrl = "https://fun2fun.live/admin/securityUser/logout";
+    const apiUrl = "https://yoyo560live.live/admin/securityUser/logout";
     const authToken = localStorage.getItem("Securitytoken");
 
     try {
@@ -1644,7 +1644,7 @@ const Signout = () => {
   const navigate = useNavigate();
 
   const handleSignOut = async () => {
-    const apiUrl = "https://fun2fun.live/admin/logout";
+    const apiUrl = "https://yoyo560live.live/admin/logout";
     const authToken = localStorage.getItem("MasterAdmintoken");
 
     try {

@@ -19,7 +19,7 @@ const ChangePassword = () => {
       return;
     }
 
-    const apiUrl = "https://fun2fun.live/admin/resetpassword";
+    const apiUrl = "https://yoyo560live.live/admin/resetpassword";
     const data = {
       username: "admin@gmail.com",
       newpassword: newPassword,

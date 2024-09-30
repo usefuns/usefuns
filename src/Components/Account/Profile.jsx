@@ -10,7 +10,7 @@ const Profile = () => {
   const [data, setData] = useState(null)
 
   useEffect(() => {
-    fetch("https://fun2fun.live/admin/get")
+    fetch("https://yoyo560live.live/admin/get")
       .then((response) => response.json())
       .then((responseData) => {
         if (responseData.data && responseData.data.length > 0) {

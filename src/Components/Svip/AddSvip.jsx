@@ -79,7 +79,7 @@ function AddSvip() {
 
 
     try {
-      const response = await fetch('https://fun2fun.live/admin/svip/add', {
+      const response = await fetch('https://yoyo560live.live/admin/svip/add', {
         method: 'POST',
         body: formDataToSend,
       });

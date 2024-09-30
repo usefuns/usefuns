@@ -54,7 +54,7 @@ const AddBubble = () => {
     formDataToSend.append('name', formData.name)
     formDataToSend.append('is_official', isChecked);
     try {
-      const response = await fetch('https://fun2fun.live/admin/chatBubble/add', {
+      const response = await fetch('https://yoyo560live.live/admin/chatBubble/add', {
         method: 'POST',
         body: formDataToSend,
       });

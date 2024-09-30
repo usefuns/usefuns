@@ -80,7 +80,7 @@ function AddVip() {
     formDataToSend.append('name', formData.name);
 
     try {
-      const response = await fetch('https://fun2fun.live/admin/vip/add', {
+      const response = await fetch('https://yoyo560live.live/admin/vip/add', {
         method: 'POST',
         body: formDataToSend,
       });

@@ -11,7 +11,7 @@ function ViewBanner() {
   }, []);
   const fetchData = async () => {
     try {
-      const responsedata = await fetch("https://fun2fun.live/admin/banner/getall");
+      const responsedata = await fetch("https://yoyo560live.live/admin/banner/getall");
       if (!responsedata.ok) {
         throw new Error("Network issue");
       }
@@ -24,7 +24,7 @@ function ViewBanner() {
   const handleConfirmDelete = async (id) => {
 
     try {
-      const response = await fetch(`https://fun2fun.live/admin/banner/delete/${id}`, {
+      const response = await fetch(`https://yoyo560live.live/admin/banner/delete/${id}`, {
         method: 'DELETE',
       });
 

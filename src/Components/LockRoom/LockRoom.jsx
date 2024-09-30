@@ -15,7 +15,7 @@ const LockRoom = () => {
 
   const fetchLockRoomData = async () => {
     try {
-      const response = await fetch('https://fun2fun.live/admin/lockRoom/getall');
+      const response = await fetch('https://yoyo560live.live/admin/lockRoom/getall');
       if (response.ok) {
         const responseData = await response.json();
         setLockRoomData(responseData.data);
@@ -80,7 +80,7 @@ const LockRoom = () => {
     }
 
     try {
-      const response = await fetch(`https://fun2fun.live/admin/lockRoom/update/${editedRoom._id}`, {
+      const response = await fetch(`https://yoyo560live.live/admin/lockRoom/update/${editedRoom._id}`, {
         method: 'PUT',
         body: formDataToSend,
       });

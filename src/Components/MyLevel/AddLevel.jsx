@@ -32,7 +32,7 @@ const AddLevel = () => {
     // formDataToSend.append('images', formData.images);
 
     try {
-      const response = await fetch('https://fun2fun.live/admin/level/add', {
+      const response = await fetch('https://yoyo560live.live/admin/level/add', {
         method: 'POST',
         body: formDataToSend,
       });

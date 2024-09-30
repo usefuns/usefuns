@@ -19,7 +19,7 @@ const ViewSecurity = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`https://fun2fun.live/admin/securityUser/getall`);
+        const response = await fetch(`https://yoyo560live.live/admin/securityUser/getall`);
         if (!response.ok) {
           throw new Error('Network response was not ok');
         }
@@ -39,7 +39,7 @@ const ViewSecurity = () => {
 
   const deleteSecurity = async (id) => {
     try {
-      const response = await fetch(`https://fun2fun.live/admin/remove/securityUser/${id}`, {
+      const response = await fetch(`https://yoyo560live.live/admin/remove/securityUser/${id}`, {
         method: 'DELETE',
       });
       if (!response.ok) {

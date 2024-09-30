@@ -23,7 +23,7 @@ const ViewAdmin = () => {
   const [formData, setFormData] = useState({ password: '', });
   const fetchData = async () => {
     try {
-      const response = await fetch(`https://fun2fun.live/admin/adminUser/getall`);
+      const response = await fetch(`https://yoyo560live.live/admin/adminUser/getall`);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
@@ -62,7 +62,7 @@ const ViewAdmin = () => {
 
     try {
       if (selectedUser) {
-        const response = await fetch(`https://fun2fun.live/admin/adminUser/update/${selectedUser.userId}`, {
+        const response = await fetch(`https://yoyo560live.live/admin/adminUser/update/${selectedUser.userId}`, {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
@@ -94,7 +94,7 @@ const ViewAdmin = () => {
 
     try {
       if (selectedUser) {
-        const response = await fetch(`https://fun2fun.live/admin/adminUser/resetpassword`, {
+        const response = await fetch(`https://yoyo560live.live/admin/adminUser/resetpassword`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -127,7 +127,7 @@ const ViewAdmin = () => {
   const confirmDelete = async () => {
     try {
       const response = await fetch(
-        `https://fun2fun.live/admin/remove/adminUser`,
+        `https://yoyo560live.live/admin/remove/adminUser`,
         {
           method: 'POST',
           headers: {

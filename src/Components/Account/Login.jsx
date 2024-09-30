@@ -17,7 +17,7 @@ const Login = () => {
         const password = e.target.password.value;
 
         try {
-            const response = await fetch('https://fun2fun.live/admin/super-admin/login', {
+            const response = await fetch('https://yoyo560live.live/admin/super-admin/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

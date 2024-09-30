@@ -16,7 +16,7 @@ const ManageMyLevel = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("https://fun2fun.live/admin/level/getall");
+        const response = await fetch("https://yoyo560live.live/admin/level/getall");
         const jsonData = await response.json();
         setData(jsonData.data);
       } catch (error) {

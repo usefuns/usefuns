@@ -56,7 +56,7 @@ const Edituser = () => {
   }, []);
   const fetchBadges = async () => {
     try {
-      const response = await fetch("https://fun2fun.live/admin/tags/getall");
+      const response = await fetch("https://yoyo560live.live/admin/tags/getall");
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
@@ -69,7 +69,7 @@ const Edituser = () => {
   };
   const fetchVehicle = async () => {
     try {
-      const response = await fetch("https://fun2fun.live/admin/vehicle/getall");
+      const response = await fetch("https://yoyo560live.live/admin/vehicle/getall");
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
@@ -82,7 +82,7 @@ const Edituser = () => {
   };
   const fetchWallpaper = async () => {
     try {
-      const response = await fetch("https://fun2fun.live/admin/wallpaper/getall");
+      const response = await fetch("https://yoyo560live.live/admin/wallpaper/getall");
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
@@ -95,7 +95,7 @@ const Edituser = () => {
   };
   const fetchFrame = async () => {
     try {
-      const response = await fetch("https://fun2fun.live/admin/frame/getall");
+      const response = await fetch("https://yoyo560live.live/admin/frame/getall");
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
@@ -108,7 +108,7 @@ const Edituser = () => {
   };
   const fetchChatProfile = async () => {
     try {
-      const response = await fetch("https://fun2fun.live/admin/chatBubble/getall");
+      const response = await fetch("https://yoyo560live.live/admin/chatBubble/getall");
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
@@ -121,7 +121,7 @@ const Edituser = () => {
   };
   const fetchVip = async () => {
     try {
-      const response = await fetch("https://fun2fun.live/admin/vip/getall");
+      const response = await fetch("https://yoyo560live.live/admin/vip/getall");
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
@@ -134,7 +134,7 @@ const Edituser = () => {
   };
   const fetchSvip = async () => {
     try {
-      const response = await fetch("https://fun2fun.live/admin/svip/getall");
+      const response = await fetch("https://yoyo560live.live/admin/svip/getall");
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
@@ -147,7 +147,7 @@ const Edituser = () => {
   };
   const fetchLockRoom = async () => {
     try {
-      const response = await fetch("https://fun2fun.live/admin/lockRoom/getall");
+      const response = await fetch("https://yoyo560live.live/admin/lockRoom/getall");
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
@@ -160,7 +160,7 @@ const Edituser = () => {
   };
   const fetchExtraSeat = async () => {
     try {
-      const response = await fetch("https://fun2fun.live/admin/extraSeat/getall");
+      const response = await fetch("https://yoyo560live.live/admin/extraSeat/getall");
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
@@ -173,7 +173,7 @@ const Edituser = () => {
   };
   const fetchSpecialId = async () => {
     try {
-      const response = await fetch("https://fun2fun.live/admin/specialId/getall");
+      const response = await fetch("https://yoyo560live.live/admin/specialId/getall");
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
@@ -186,7 +186,7 @@ const Edituser = () => {
   };
   const fetchAgency = async () => {
     try {
-      const response = await fetch("https://fun2fun.live/admin/agency/getall");
+      const response = await fetch("https://yoyo560live.live/admin/agency/getall");
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
@@ -199,7 +199,7 @@ const Edituser = () => {
   };
   const fetchAdmin = async () => {
     try {
-      const response = await fetch("https://fun2fun.live/admin/adminuser/getall");
+      const response = await fetch("https://yoyo560live.live/admin/adminuser/getall");
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
@@ -212,7 +212,7 @@ const Edituser = () => {
   };
   const fetchSubAdmin = async () => {
     try {
-      const response = await fetch("https://fun2fun.live/admin/subAdminUser/getall");
+      const response = await fetch("https://yoyo560live.live/admin/subAdminUser/getall");
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
@@ -228,7 +228,7 @@ const Edituser = () => {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        `https://fun2fun.live/user/getbyid/${id}`
+        `https://yoyo560live.live/user/getbyid/${id}`
       );
       const jsonData = await response.json();
       console.log(jsonData.data)
@@ -263,7 +263,7 @@ const Edituser = () => {
   const fetchRoomData = async () => {
     try {
       const response = await fetch(
-        `https://fun2fun.live/room/getbyuserId/${id}`
+        `https://yoyo560live.live/room/getbyuserId/${id}`
       );
       if (!response.ok) {
         throw new Error("Network response was not ok");
@@ -279,7 +279,7 @@ const Edituser = () => {
     console.log(roomData[0]?.roomId);
     try {
       const response = await fetch(
-        `https://fun2fun.live/room/deleteRoomDp`,
+        `https://yoyo560live.live/room/deleteRoomDp`,
         {
           method: "POST",
           headers: {
@@ -304,7 +304,7 @@ const Edituser = () => {
   const handleSubmit = async () => {
     try {
       const response = await fetch(
-        `https://fun2fun.live/admin/user/update/${userData?.userId}`,
+        `https://yoyo560live.live/admin/user/update/${userData?.userId}`,
         {
           method: "PUT",
           headers: {

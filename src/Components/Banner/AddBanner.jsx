@@ -30,7 +30,7 @@ function AddBanner() {
     formDataToSend.append('images', formData.banner);
 
     try {
-      const response = await fetch('https://fun2fun.live/admin/banner/add', {
+      const response = await fetch('https://yoyo560live.live/admin/banner/add', {
         method: 'POST',
         body: formDataToSend,
       });

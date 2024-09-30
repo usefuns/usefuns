@@ -21,7 +21,7 @@ const ViewAgency = () => {
   let adminUser = JSON.parse(admin1)
   const fetchData = async () => {
     try {
-      const response = await fetch(`https://fun2fun.live/admin/agency/getall`);
+      const response = await fetch(`https://yoyo560live.live/admin/agency/getall`);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
@@ -39,7 +39,7 @@ const ViewAgency = () => {
   const fetchData1 = async () => {
     try {
 
-      const response = await fetch(`https://fun2fun.live/admin/agency/getbyadmin`, {
+      const response = await fetch(`https://yoyo560live.live/admin/agency/getbyadmin`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -92,7 +92,7 @@ const ViewAgency = () => {
   // Delete 
   const handleConfirmDelete = async () => {
     try {
-      const response = await fetch(`https://fun2fun.live/admin/agency/delete`,
+      const response = await fetch(`https://yoyo560live.live/admin/agency/delete`,
         {
           method: 'DELETE',
           headers: {
@@ -120,7 +120,7 @@ const ViewAgency = () => {
   //Update
   const handleUpdateSubmit = async () => {
     try {
-      const response = await fetch(`https://fun2fun.live/admin/agency/update/${editedData._id}`, {
+      const response = await fetch(`https://yoyo560live.live/admin/agency/update/${editedData._id}`, {
         method: 'PUT',
         headers: {
           'Content-Type': 'application/json',

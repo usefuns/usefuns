@@ -31,7 +31,7 @@ const AddTags = () => {
     formDataToSend.append('images', formData.images);
     setLoading(true);
     try {
-      const response = await fetch('https://fun2fun.live/admin/tags/add', {
+      const response = await fetch('https://yoyo560live.live/admin/tags/add', {
         method: 'POST',
         body: formDataToSend,
       });

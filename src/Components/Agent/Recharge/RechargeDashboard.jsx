@@ -36,7 +36,7 @@ function RechargeDashboard({ coinseller }) {
       diamonds: parseInt(diamonds[0])
     };
     const response = await axios.post(
-      'https://fun2fun.live/payment/new',
+      'https://yoyo560live.live/payment/new',
       requestBody
     );
     if (response.data && response.data.data) {
@@ -50,7 +50,7 @@ function RechargeDashboard({ coinseller }) {
     try {
 
       const response = await axios.get(
-        `https://fun2fun.live/user/getbyuserId/${usefunId}`
+        `https://yoyo560live.live/user/getbyuserId/${usefunId}`
       );
 
       if (response.data.data) {

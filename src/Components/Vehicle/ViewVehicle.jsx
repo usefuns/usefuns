@@ -12,7 +12,7 @@ const ViewVehicle = () => {
   }, []);
   const fetchData = async () => {
     try {
-      const response = await fetch("https://fun2fun.live/admin/vehicle/getall");
+      const response = await fetch("https://yoyo560live.live/admin/vehicle/getall");
       if (!response.ok) {
         throw new Error("network issue");
       }
@@ -26,7 +26,7 @@ const ViewVehicle = () => {
   const handleConfirmDelete = async (id) => {
 
     try {
-      const response = await fetch(`https://fun2fun.live/admin/vehicle/delete/${id}`, {
+      const response = await fetch(`https://yoyo560live.live/admin/vehicle/delete/${id}`, {
         method: 'DELETE',
       });
 

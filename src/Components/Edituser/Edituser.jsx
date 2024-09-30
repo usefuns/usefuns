@@ -13,7 +13,7 @@ const Edituser = () => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          `https://fun2fun.live/user/getbyid/${id}`
+          `https://yoyo560live.live/user/getbyid/${id}`
         );
         const jsonData = await response.json();
         setData(jsonData.data);

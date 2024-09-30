@@ -17,7 +17,7 @@ const SubAdminLogin = () => {
     const password = e.target.password.value;
 
     try {
-      const response = await fetch('https://fun2fun.live/admin/subadminuser/login', {
+      const response = await fetch('https://yoyo560live.live/admin/subadminuser/login', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

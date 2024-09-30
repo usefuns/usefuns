@@ -8,7 +8,7 @@ const MyCustomer = () => {
       const merchantTransactionId = urlParams.get("merchantTransactionId");
 
       const response = await axios.get(
-        `https://fun2fun.live/payment/success/${merchantTransactionId}`,
+        `https://yoyo560live.live/payment/success/${merchantTransactionId}`,
       );
       console.log("newTppClose");
       if (response) {

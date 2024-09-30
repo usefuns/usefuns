@@ -84,7 +84,7 @@ const AddFrames = () => {
     formDataToSend.append('name', formData.name);
     formDataToSend.append('is_official', isChecked);
     try {
-      const response = await fetch('https://fun2fun.live/admin/frame/add', {
+      const response = await fetch('https://yoyo560live.live/admin/frame/add', {
         method: 'POST',
         body: formDataToSend,
       });

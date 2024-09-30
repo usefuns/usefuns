@@ -11,22 +11,22 @@ const Dashboard = () => {
   const [totalPendingHost, setTotalPendingHost] = useState(null);
 
   const getTotalUser = () => {
-    fetch("https://fun2fun.live/user/getall")
+    fetch("https://yoyo560live.live/user/getall")
       .then((response) => response.json())
       .then((data) => setTotalUser(data.data.length));
   };
   const getApprovedHost = () => {
-    fetch("https://fun2fun.live/host/getApproved")
+    fetch("https://yoyo560live.live/host/getApproved")
       .then((response) => response.json())
       .then((data) => setTotalApprovedHost(data.data.length));
   };
   const getRejectedHost = () => {
-    fetch("https://fun2fun.live/host/getRejected")
+    fetch("https://yoyo560live.live/host/getRejected")
       .then((response) => response.json())
       .then((data) => setTotalRejectedHost(data.data.length));
   };
   const getPendingHost = () => {
-    fetch("https://fun2fun.live/host/getPending")
+    fetch("https://yoyo560live.live/host/getPending")
       .then((response) => response.json())
       .then((data) => setTotalPendingHost(data.data.length));
   };

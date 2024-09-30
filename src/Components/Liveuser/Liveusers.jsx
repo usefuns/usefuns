@@ -6,7 +6,7 @@ const Liveusers = () => {
   const [users, setUsers] = useState([]);
 
   useEffect(() => {
-    fetch("https://fun2fun.live/user/live/getall")
+    fetch("https://yoyo560live.live/user/live/getall")
       .then((response) => response.json())
       .then((data) => setUsers(data.data));
   }, []);

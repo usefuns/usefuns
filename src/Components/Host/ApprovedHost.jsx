@@ -16,7 +16,7 @@ const ApprovedHost = () => {
   }, []);
   const fetchData = async () => {
     try {
-      const response = await fetch("https://fun2fun.live/host/getApproved");
+      const response = await fetch("https://yoyo560live.live/host/getApproved");
       const jsonData = await response.json();
       console.log(jsonData.data)
       setData(jsonData.data);
@@ -27,7 +27,7 @@ const ApprovedHost = () => {
   const confirmDelete = async (id) => {
     try {
       const response = await fetch(
-        `https://fun2fun.live/host/removeByid/${id}`,
+        `https://yoyo560live.live/host/removeByid/${id}`,
         {
           method: 'DELETE',
           headers: {

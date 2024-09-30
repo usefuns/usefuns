@@ -11,7 +11,7 @@ const RelationShip = () => {
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        "https://fun2fun.live/admin/relationship/getall"
+        "https://yoyo560live.live/admin/relationship/getall"
       );
       setData(response.data.data);
     } catch (error) {
@@ -37,7 +37,7 @@ const RelationShip = () => {
 
     try {
       const response = await axios.put(
-        `https://fun2fun.live/admin/relationship/update`,
+        `https://yoyo560live.live/admin/relationship/update`,
         formData
       );
       if (response.data) {

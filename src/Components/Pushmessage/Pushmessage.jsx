@@ -14,7 +14,7 @@ const Pushmessage = () => {
     const fetchData = async () => {
       try {
         const response = await fetch(
-          "https://fun2fun.live/user/getall"
+          "https://yoyo560live.live/user/getall"
         );
         const jsonData = await response.json();
         setUser(jsonData.data);
@@ -30,7 +30,7 @@ const Pushmessage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     const response = await fetch(
-      "https://fun2fun.live/admin/message/send",
+      "https://yoyo560live.live/admin/message/send",
       {
         method: "POST",
         body: JSON.stringify({

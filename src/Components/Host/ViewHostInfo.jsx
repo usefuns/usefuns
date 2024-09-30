@@ -9,7 +9,7 @@ const ViewHostInfo = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch(`https://fun2fun.live/host/getbyid/${id}`);
+        const response = await fetch(`https://yoyo560live.live/host/getbyid/${id}`);
         const jsonData = await response.json();
         console.log(jsonData.data);
         setData(jsonData.data);

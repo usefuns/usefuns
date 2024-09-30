@@ -26,7 +26,7 @@ const ViewSubAdmin = () => {
   }, []);
   const fetchData = async () => {
     try {
-      const response = await fetch(`https://fun2fun.live/admin/subAdminUser/getall`);
+      const response = await fetch(`https://yoyo560live.live/admin/subAdminUser/getall`);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
@@ -40,7 +40,7 @@ const ViewSubAdmin = () => {
   };
   const deleteSubAdmin = async (id) => {
     try {
-      const response = await fetch(`https://fun2fun.live/admin/remove/subAdminUser/${id}`, {
+      const response = await fetch(`https://yoyo560live.live/admin/remove/subAdminUser/${id}`, {
         method: 'DELETE',
       });
       if (!response.ok) {
@@ -63,7 +63,7 @@ const ViewSubAdmin = () => {
 
     try {
       if (selectedUser) {
-        const response = await fetch(`https://fun2fun.live/admin/subAdminUser/resetpassword`, {
+        const response = await fetch(`https://yoyo560live.live/admin/subAdminUser/resetpassword`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

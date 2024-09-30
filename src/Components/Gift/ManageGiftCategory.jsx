@@ -16,7 +16,7 @@ function ManageGiftcategory() {
   }, []);
   const fetchData = async () => {
     try {
-      const responsedata = await fetch("https://fun2fun.live/admin/giftCategory/getall");
+      const responsedata = await fetch("https://yoyo560live.live/admin/giftCategory/getall");
       if (!responsedata.ok) {
         throw new Error("Network issue");
       }
@@ -35,7 +35,7 @@ function ManageGiftcategory() {
       return
     }
     try {
-      const response = await fetch('https://fun2fun.live/admin/giftCategory/add', {
+      const response = await fetch('https://yoyo560live.live/admin/giftCategory/add', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -24,7 +24,7 @@ const AddAdmin = () => {
     }
 
     try {
-      const response = await fetch('https://fun2fun.live/admin/make/adminUser', {
+      const response = await fetch('https://yoyo560live.live/admin/make/adminUser', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

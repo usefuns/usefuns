@@ -55,7 +55,7 @@ function CoinSeller() {
 
     try {
       const response = await axios.post(
-        "https://fun2fun.live/admin/coinSeller/add",
+        "https://yoyo560live.live/admin/coinSeller/add",
         formDataToSend
       );
 

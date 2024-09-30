@@ -14,7 +14,7 @@ const Salerysetup = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch(`https://fun2fun.live/admin/diamoindValue/get`);
+      const response = await fetch(`https://yoyo560live.live/admin/diamoindValue/get`);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }

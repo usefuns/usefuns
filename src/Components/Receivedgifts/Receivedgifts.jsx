@@ -11,7 +11,7 @@ const Receivedgifts = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("https://fun2fun.live/user/receive/gift/get", {
+        const response = await fetch("https://yoyo560live.live/user/receive/gift/get", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",

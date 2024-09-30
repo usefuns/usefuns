@@ -10,7 +10,7 @@ const RejectedHost = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("https://fun2fun.live/host/getRejected");
+        const response = await fetch("https://yoyo560live.live/host/getRejected");
         const jsonData = await response.json();
         setData(jsonData.data);
       } catch (error) {

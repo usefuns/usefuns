@@ -9,7 +9,7 @@ const Topusers = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch(`https://fun2fun.live/user/topUser`);
+        const res = await fetch(`https://yoyo560live.live/user/topUser`);
         if (!res.ok) {
           throw new Error("Network response is not ok!!!");
         }

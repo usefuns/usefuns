@@ -20,7 +20,7 @@ const AgentLogin = () => {
       let mobile = "91" + Number(formData.mobile)
       try {
         const response = await axios.post(
-          "https://fun2fun.live/coinseller/getmobileotp",
+          "https://yoyo560live.live/coinseller/getmobileotp",
           { mobile: Number(mobile) }
         );
         if (response) {
@@ -47,7 +47,7 @@ const AgentLogin = () => {
       try {
         const storedmobile = localStorage.getItem("CoinSellermobile");
         const mobileResponse = await axios.post(
-          "https://fun2fun.live/coinseller/loginmobile",
+          "https://yoyo560live.live/coinseller/loginmobile",
           { mobile: storedmobile }
         );
 

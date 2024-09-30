@@ -12,7 +12,7 @@ function AddLiveGifts() {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        `https://fun2fun.live/admin/giftCategory/getall`
+        `https://yoyo560live.live/admin/giftCategory/getall`
       );
       const jsonData = await response.json();
       console.log(jsonData.data)
@@ -37,7 +37,7 @@ function AddLiveGifts() {
     data.append("images", images1);
 
     const response = await fetch(
-      "https://fun2fun.live/admin/gift/add",
+      "https://yoyo560live.live/admin/gift/add",
       {
         method: "POST",
         body: data,

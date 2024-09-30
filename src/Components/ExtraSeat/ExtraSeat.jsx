@@ -11,7 +11,7 @@ const ExtraSeat = () => {
   const fetchData = async () => {
     try {
       const response = await axios.get(
-        "https://fun2fun.live/admin/extraSeat/getall"
+        "https://yoyo560live.live/admin/extraSeat/getall"
       );
       setData(response.data.data);
     } catch (error) {
@@ -52,7 +52,7 @@ const ExtraSeat = () => {
 
     try {
       const response = await axios.put(
-        `https://fun2fun.live/admin/extraSeat/update/${item._id}`,
+        `https://yoyo560live.live/admin/extraSeat/update/${item._id}`,
         formData
       );
       if (response.data) {

@@ -17,7 +17,7 @@ const ViewRoomWallpaper = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch(`https://fun2fun.live/admin/wallpaper/getall`);
+      const response = await fetch(`https://yoyo560live.live/admin/wallpaper/getall`);
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }
@@ -52,7 +52,7 @@ const ViewRoomWallpaper = () => {
     console.log(selectedItem?._id, "Selected Id");
 
     try {
-      const response = await fetch(`https://fun2fun.live/admin/wallpaper/delete/${selectedItem?._id}`, {
+      const response = await fetch(`https://yoyo560live.live/admin/wallpaper/delete/${selectedItem?._id}`, {
         method: 'DELETE',
       });
 
@@ -80,7 +80,7 @@ const ViewRoomWallpaper = () => {
     formDataToSend.append('day', editedData.day);
     console.log(editedData._id)
     try {
-      const response = await fetch(`https://fun2fun.live/admin/appEntry/update/${editedData._id}`, {
+      const response = await fetch(`https://yoyo560live.live/admin/appEntry/update/${editedData._id}`, {
         method: 'PUT',
         body: formDataToSend,
       });

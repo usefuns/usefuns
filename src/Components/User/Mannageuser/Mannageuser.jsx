@@ -20,7 +20,7 @@ const Mannageuser = () => {
   const fetchData = async () => {
     try {
       const response = await fetch(
-        "https://fun2fun.live/user/getall"
+        "https://yoyo560live.live/user/getall"
       );
       const jsonData = await response.json();
       console.log(jsonData.data)
@@ -48,7 +48,7 @@ const Mannageuser = () => {
   const visibleData = filteredData.slice(startIndex, endIndex);
 
   const deleteUserHandler = (userId) => {
-    const url = `https://fun2fun.live/admin/user/delete/${userId}`;
+    const url = `https://yoyo560live.live/admin/user/delete/${userId}`;
     fetch(url, {
       method: "DELETE",
       headers: {

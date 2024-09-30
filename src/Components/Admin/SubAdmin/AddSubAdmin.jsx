@@ -33,7 +33,7 @@ const AddSubAdmin = () => {
     }
   };
   useEffect(() => {
-    fetch('https://fun2fun.live/admin/adminUser/getall')
+    fetch('https://yoyo560live.live/admin/adminUser/getall')
       .then(response => response.json())
       .then(data => {
         if (data.status === 1) {
@@ -95,7 +95,7 @@ const AddSubAdmin = () => {
     }
 
     try {
-      const response = await fetch('https://fun2fun.live/admin/make/subAdminUser', {
+      const response = await fetch('https://yoyo560live.live/admin/make/subAdminUser', {
         method: 'POST',
         body: formDataToSend,
       });

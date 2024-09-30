@@ -46,7 +46,7 @@ const SpecialIdComp = () => {
     //   day: formData.day
     // }
     try {
-      const response = await fetch('https://fun2fun.live/admin/specialId/add', {
+      const response = await fetch('https://yoyo560live.live/admin/specialId/add', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

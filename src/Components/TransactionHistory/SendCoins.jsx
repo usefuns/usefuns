@@ -12,7 +12,7 @@ const SendCoins = () => {
   const [coin1, setCoin1] = useState();
   const [coin, setCoin] = useState("");
   useEffect(() => {
-    fetch('https://fun2fun.live/admin/coinSeller/getall')
+    fetch('https://yoyo560live.live/admin/coinSeller/getall')
       .then(response => response.json())
       .then(data => {
         if (data.status === 1) {
@@ -22,7 +22,7 @@ const SendCoins = () => {
       .catch(error => {
         console.error('Error fetching admin users:', error);
       });
-    fetch('https://fun2fun.live/admin/adminUser/getall')
+    fetch('https://yoyo560live.live/admin/adminUser/getall')
       .then(response => response.json())
       .then(data => {
         if (data.status === 1) {
@@ -49,7 +49,7 @@ const SendCoins = () => {
         amount: Number(coin)
       };
 
-      fetch('https://fun2fun.live/admin/coinseller/recharge/offline', {
+      fetch('https://yoyo560live.live/admin/coinseller/recharge/offline', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -76,7 +76,7 @@ const SendCoins = () => {
         totalCoins: Number(coin1)
       };
 
-      fetch('https://fun2fun.live/admin/adminUser/send/coin', {
+      fetch('https://yoyo560live.live/admin/adminUser/send/coin', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

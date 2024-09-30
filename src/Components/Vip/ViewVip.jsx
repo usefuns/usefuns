@@ -15,7 +15,7 @@ function ViewVip() {
   }, [])
   const fetchData = async () => {
     try {
-      const response = await fetch("https://fun2fun.live/admin/vip/getall");
+      const response = await fetch("https://yoyo560live.live/admin/vip/getall");
       if (!response.ok) {
         throw new Error("An error occupied");
       };
@@ -29,7 +29,7 @@ function ViewVip() {
   const handleConfirmDelete = async (id) => {
 
     try {
-      const response = await fetch(`https://fun2fun.live/admin/vip/delete/${id}`, {
+      const response = await fetch(`https://yoyo560live.live/admin/vip/delete/${id}`, {
         method: 'DELETE',
       });
 

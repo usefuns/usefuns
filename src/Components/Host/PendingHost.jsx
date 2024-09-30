@@ -12,7 +12,7 @@ const PendingHost = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await fetch("https://fun2fun.live/host/getPending");
+        const response = await fetch("https://yoyo560live.live/host/getPending");
         const jsonData = await response.json();
         console.log(jsonData.data)
         setData(jsonData.data);
@@ -34,7 +34,7 @@ const PendingHost = () => {
   //Accept Request
   const handleStatusChange = async (itemId, newStatus) => {
     try {
-      const response = await fetch("https://fun2fun.live/admin/host/changeStatus", {
+      const response = await fetch("https://yoyo560live.live/admin/host/changeStatus", {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'

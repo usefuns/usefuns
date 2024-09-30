@@ -14,7 +14,7 @@ const ViewFrames = () => {
 
   const fetchData = async () => {
     try {
-      const response = await fetch("https://fun2fun.live/admin/frame/getall");
+      const response = await fetch("https://yoyo560live.live/admin/frame/getall");
       if (!response.ok) {
         throw new Error("network issue");
       }
@@ -28,7 +28,7 @@ const ViewFrames = () => {
   const handleConfirmDelete = async (id) => {
 
     try {
-      const response = await fetch(`https://fun2fun.live/admin/frame/delete/${id}`, {
+      const response = await fetch(`https://yoyo560live.live/admin/frame/delete/${id}`, {
         method: 'DELETE',
       });
 

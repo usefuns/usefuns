@@ -86,7 +86,7 @@ const AddVehicle = () => {
     formDataToSend.append('is_official', isChecked);
 
     try {
-      const response = await fetch('https://fun2fun.live/admin/vehicle/add', {
+      const response = await fetch('https://yoyo560live.live/admin/vehicle/add', {
         method: 'POST',
         body: formDataToSend,
       });

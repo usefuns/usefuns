@@ -76,7 +76,7 @@ const AddSecurity = () => {
 
 
     try {
-      const response = await fetch('https://fun2fun.live/admin/make/securityUser', {
+      const response = await fetch('https://yoyo560live.live/admin/make/securityUser', {
         method: 'POST',
         body: formDataToSend,
       });

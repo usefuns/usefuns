@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export async function loginAdmin(username, password) {
   try {
-    const response = await axios.post('https://fun2fun.live/admin/super-admin/login', {
+    const response = await axios.post('https://yoyo560live.live/admin/super-admin/login', {
       username,
       password,
     });
@@ -22,7 +22,7 @@ export async function loginAdmin(username, password) {
 }
 export async function loginAdmin(username, password) {
   try {
-    const response = await axios.post('https://fun2fun.live/admin/adminUser/login', {
+    const response = await axios.post('https://yoyo560live.live/admin/adminUser/login', {
       username,
       password,
     });
@@ -42,7 +42,7 @@ export async function loginAdmin(username, password) {
 }
 export async function loginSubAdmin(username, password) {
   try {
-    const response = await axios.post('https://fun2fun.live/admin/subadminuser/login', {
+    const response = await axios.post('https://yoyo560live.live/admin/subadminuser/login', {
       username,
       password,
     });
@@ -62,7 +62,7 @@ export async function loginSubAdmin(username, password) {
 }
 export async function loginSubAdmin(username, password) {
   try {
-    const response = await axios.post('https://fun2fun.live/admin/securityuser/login', {
+    const response = await axios.post('https://yoyo560live.live/admin/securityuser/login', {
       username,
       password,
     });

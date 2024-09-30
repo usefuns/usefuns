@@ -22,7 +22,7 @@ const AppEntry = () => {
     formData.append('images', selectedFile);
 
     try {
-      const response = await fetch('https://fun2fun.live/admin/appEntry/update', {
+      const response = await fetch('https://yoyo560live.live/admin/appEntry/update', {
         method: 'PUT',
         body: formData,
       });

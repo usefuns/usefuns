@@ -12,7 +12,7 @@ function Ranking() {
 
         const fetchData = async () => {
             try {
-                const response = await fetch("https://fun2fun.live/admin/agentRanking");
+                const response = await fetch("https://yoyo560live.live/admin/agentRanking");
                 if (!response.ok) {
                     throw new Error("network issue");
                 }

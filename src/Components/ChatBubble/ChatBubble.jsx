@@ -10,7 +10,7 @@ const ChatBubble = () => {
   }, []);
   const fetchData = async () => {
     try {
-      await fetch("https://fun2fun.live/admin/chatBubble/getall")
+      await fetch("https://yoyo560live.live/admin/chatBubble/getall")
         .then((res) => res.json())
         .then((data) => setData(data.data))
         .catch((error) => console.error(error));
@@ -21,7 +21,7 @@ const ChatBubble = () => {
   const handleConfirmDelete = async (id) => {
 
     try {
-      const response = await fetch(`https://fun2fun.live/admin/chatBubble/delete/${id}`, {
+      const response = await fetch(`https://yoyo560live.live/admin/chatBubble/delete/${id}`, {
         method: 'DELETE',
       });
 
