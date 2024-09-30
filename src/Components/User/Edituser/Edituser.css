@@ -1,0 +1,36 @@
+.fields{
+    margin-bottom: 40px;
+}
+.fields input{
+    height: 40px;
+}
+.fields h6{
+    font-size: 12px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.star-icons{
+    font-size: 6px;
+    margin-bottom: 3px;
+}
+.field-button .cancel-butt{
+    border: none;
+padding: 10px;
+background:rgb(0, 147, 127);
+color: white;
+font-weight: 501;
+width: 150px;
+}
+.field-button .submit-butt{
+    border: none;
+padding: 10px;
+background: purple;
+color: white;
+font-weight: 501;
+width: 150px;
+}
+.field-button{
+    width: 50%;
+display: flex;
+justify-content: space-between;
+}

@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+.cancel-button{
+    background-color: #058D9E;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+.submit-button{
+    background-color:#BF00ED;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+.app-entry input{
+    border: 1px solid #bdbdbd;
+padding: 10px;
+margin-top: 20px;
+}
+.container label{
+    font-weight: 501;
+margin-top: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: flex-start;
+    gap: 30%;
+}

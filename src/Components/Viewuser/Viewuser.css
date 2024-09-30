@@ -1,0 +1,70 @@
+.view-user1{
+    display: flex;
+    width: 50%;
+}
+.view-user2{
+    display: flex;
+    width: 50%;
+}
+.view-user{
+    display: flex;
+    line-height: 4;
+    font-size: 12px;
+}
+.user-keys{
+    width: 50%;
+}
+.remove-button{
+    border: none;
+background: #5b5bff;
+color: wheat;
+width: 150px;
+font-weight: 800;
+font-size: 16px;
+margin-top: 10px;
+}
+.user-id-ban label{
+    display: flex;
+    flex-direction: column;
+}
+.user-id-ban select{
+    border: 1px solid black;
+background: white;
+padding: 10px;
+}
+.user-badges label{
+    display: flex;
+    flex-direction: column;
+}
+.user-badges select{
+    border: 1px solid black;
+background: white;
+padding: 10px;
+}
+.live-hotlist label{
+    display: flex;
+    flex-direction: column;
+}
+.live-hotlist select{
+    border: 1px solid black;
+background: white;
+padding: 10px;
+}
+.user-live label{
+    display: flex;
+    flex-direction: column;
+}
+.user-live select{
+    border: 1px solid black;
+background: white;
+padding: 10px;
+}
+.user-deviceid-ban label{
+    display: flex;
+    flex-direction: column;
+}
+.user-deviceid-ban select{
+    border: 1px solid black;
+background: white;
+padding: 10px;
+}

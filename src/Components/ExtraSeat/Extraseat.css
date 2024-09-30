@@ -1,0 +1,100 @@
+.add-btn-b{
+    background: rgb(177, 177, 177);
+    border: none;
+    padding: 5px;
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 12px;
+    width: 100px;
+}
+.cancel-btn-a{
+    background-color: #058D9E;
+    
+    border: none;
+    padding: 10px;
+    
+    color: white;
+    font-weight: 501;
+    width: 150px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.submit-btn-b{
+    border: none;
+    padding: 10px;
+    background:#BF00ED;
+    color: white;
+    font-weight: 501;
+    width: 150px;
+    margin-top: 20px;
+}
+.seat-container{
+    width: 50%;
+}
+.img img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.text-cont{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.text-cont h1{
+    font-size: 24px;
+}
+.text-cont button{
+    border: 1px solid black;
+    background: transparent;
+    width: 80px;
+}
+#fileupload{
+    display: none;
+}
+.seat-form input{
+    border: 1px solid black;
+    background: transparent;
+    padding: 7px;
+    margin-right: 20px;
+    
+}
+.seat-form label{
+    border: 1px solid black;
+    padding: 7px;
+    width: 140px;
+}
+.seat-form button{
+    background: none;
+    margin-top: 20px;
+    
+}
+.btn-cont7{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-cont7 .disable{
+    background-color: #058D9E;
+    
+    border: none;
+    padding: 10px;
+    
+    color: white;
+    font-weight: 501;
+    width: 150px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.btn-cont7 .submit{
+    border: none;
+    padding: 10px;
+    background:#BF00ED;
+    color: white;
+    font-weight: 501;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.imageinput{
+    width: 40%;
+    
+}

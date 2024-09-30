@@ -1,0 +1,38 @@
+.prof-img{
+    display: flex;
+    justify-content: center;
+}
+.prof-img img{
+    width: 100px;
+}
+.prof-img p{
+    display: flex;
+    align-items: center;
+}
+.text-contai{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.text-contai p{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 501;
+
+}
+.text-contai .submit-butt{
+    padding: 9px;
+    background: rgb(40, 151, 248);
+    border: none;
+    
+    color: white;
+    font-weight: 501;
+    width: 20%;
+}
+.buttn{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}

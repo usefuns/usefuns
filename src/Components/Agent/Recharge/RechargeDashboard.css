@@ -1,0 +1,144 @@
+.image-short img{
+    width: 100px;
+}
+.heading-part{
+    display: flex;
+    gap: 40px;
+}
+.logout{
+    background: grey;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+.phone .no{
+    font-weight: 501;
+}
+.phone .blnc{
+    color: grey;
+    font-size: 12px;
+}
+.middle-center{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.middle-center p{
+    font-weight: 501;
+    cursor: pointer;
+}
+.last-cont{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+.last-cont-1{
+    display: flex;
+    flex-direction: column;
+}
+.usefun-id-text{
+    width: 100%;
+    padding: 8px;
+}
+.confirm{
+    padding: 9px;
+    background: rgb(40, 151, 248);
+    border: none;
+    
+    color: white;
+    font-weight: 501;
+    
+}
+.button-sub{
+    margin-top: 25px;
+}
+.last-last-cont{
+    width: 100%;
+    margin-top: 20px;
+    
+
+}
+.last-last-cont-div{
+    display: flex;
+    justify-content: center;
+}
+.last-last-cont{
+    width: 30%;
+    
+}
+.submit-new{
+    padding: 9px;
+background: rgb(40, 151, 248);
+border: none;
+color: white;
+font-weight: 501;
+width: 100px;
+height: 40px;
+margin-top: 45px;
+}
+.img-agent img{
+    height: 230px;
+}
+.img-agent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.confirm-flex{
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid black; */
+   
+}
+.btn2 button{
+    border: none;
+    background-color: rgb(200, 200, 200);
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.avatar-main-div{
+    display: flex;
+    gap: 30px;
+}
+
+.usefunId-bold{
+    font-weight: 800;
+}
+
+.name-div{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    margin-top: 5px;
+}
+
+.img-avatar{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.cancel-btn{
+    padding: 5px 5px;
+    border-radius: 10px;
+    background-color: gray;
+    color: black;
+    border: none;
+}
+
+.agentCenterdiv{
+    margin-top: 30px;
+}
+
+.active-menubtn{
+    background-color: #BF00ED;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}

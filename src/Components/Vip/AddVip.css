@@ -1,0 +1,21 @@
+.btn-btn1{
+    background-color: #058D9E;
+    
+    border: none;
+    padding: 10px;
+    
+    color: white;
+    font-weight: 501;
+    width: 150px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.btn-btn2{
+    border: none;
+    padding: 10px;
+    background:#BF00ED;
+    color: white;
+    font-weight: 501;
+    width: 150px;
+    margin-top: 20px;
+}

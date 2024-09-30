@@ -1,0 +1,19 @@
+.hotlist-btn {
+  background-color: var(--green) !important;
+  color: var(--white) !important;
+  padding: 4px 8px;
+  font-weight: 500;
+  font-size: 22px;
+  border: 0;
+}
+
+.remove-btn {
+  background-color: var(--white) !important;
+  color: var(--secondarytext) !important;
+  border: 1px solid var(--darkborder) !important;
+  padding: 4px 8px;
+  font-size: 14px;
+}
+.tbody, td, tfoot, th, thead, tr{
+  width: 30%;
+}

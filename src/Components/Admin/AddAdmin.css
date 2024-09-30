@@ -1,0 +1,25 @@
+.butt-container .cancel-button{
+    border: none;
+    padding: 10px;
+    background:#058D9E;
+    color: white;
+    font-weight: 501;
+    width: 150px;
+    
+}
+.butt-container .submit-button{
+    border: none;
+    padding: 10px;
+    background:#BF00ED;
+    color: white;
+    font-weight: 501;
+    width: 150px;
+}
+.butt-container{
+    display: flex;
+gap: 20%;
+margin-top: 20px;
+}
+.add-admin input {
+    padding: 5px;
+}

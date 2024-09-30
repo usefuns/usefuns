@@ -1,0 +1,69 @@
+.vip_btn{
+    border: none;
+    padding: 10px;
+    background:#BF00ED;
+    color: white;
+    font-weight: 501;
+    width: 150px;
+    margin-top: 20px;
+}
+#vip_table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  .priceth1, .price1 {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+    width: 15%;
+  }
+  
+  .vip_img {
+    width: 50px;
+    height: 50px;
+    background-color: #f0f0f0;
+  }
+  
+  .price .num {
+    font-weight: bold;
+  }
+  
+  .price select {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  /* Alternate row background color */
+  #vip_table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Styling for the table header */
+  #vip_table th {
+    
+    color: rgb(67, 67, 67);
+    font-weight: bold;
+  }
+  
+  /* Styling for the first column header */
+  #vip_table th.priceth:first-child {
+    width: 30px;
+  }
+  
+  /* Styling for the second column header */
+  #vip_table th.priceth:nth-child(2) {
+    width: 100px;
+  }
+  
+  /* Styling for the "Action" column */
+  #vip_table th.priceth:last-child,
+  #vip_table td.price:last-child {
+    width: 100px;
+  }
+  .viewsvip-select{
+    width: 100%;
+    border: none;
+  }
+  

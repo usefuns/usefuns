@@ -1,0 +1,24 @@
+.container-addroom{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 30%;
+}
+.addroom h2{
+    margin-bottom: 20px;
+
+}
+.container-addroom label{
+font-size: 14px;
+font-weight: 501;
+margin-bottom: 10px;
+}
+.container-addroom input{
+    border: 1px solid rgb(168, 166, 166);
+    width: 400px;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}

@@ -1,0 +1,17 @@
+.length-head h2{
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.label-length label{
+    font-weight: 600;
+}
+.label-length{
+    display: flex;
+    flex-direction: column;
+}
+.label-length select{
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    width: 25%;
+}

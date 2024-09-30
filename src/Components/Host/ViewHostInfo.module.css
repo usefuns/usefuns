@@ -1,0 +1,17 @@
+
+.main{
+    margin-top: 20px;
+}
+
+
+
+.box{
+    margin-top: 20px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.box select{
+    width: 150px;
+}

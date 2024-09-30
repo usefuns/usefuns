@@ -1,0 +1,71 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+  }
+  
+  th, .bannertd {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .image {
+    width: 50px;
+    height: 50px;
+    background-color: #f0f0f0;
+  }
+  
+  .bannertd .num {
+    font-weight: bold;
+  }
+  
+  .bannertd select {
+    width: 100%;
+    padding: 5px;
+  }
+  
+  /* Alternate row background color */
+  table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Styling for the table header */
+  table th {
+    
+    color: rgb(66, 65, 65);
+    font-weight: bold;
+  }
+  
+  /* Styling for the first column header */
+  table th:first-child,
+  .bannertd:first-child {
+    width: 30px;
+  
+  }
+  
+  /* Styling for the second column header */
+  table th:nth-child(2),
+  .bannertd:nth-child(2) {
+    width: 100px;
+    
+  }
+  
+  /* Styling for the "HyperLink" column */
+  table th:nth-child(3),
+  .bannertd:nth-child(3) {
+    width: 120px;
+    
+  }
+  
+  /* Styling for the "Action" column */
+  table th:last-child,
+  .bannertd:last-child {
+    width: 100px;
+  }
+  .viewbanner{
+    width: 100%;
+  }
+  .banner-table .banner-data{
+    width: 25%;
+  }

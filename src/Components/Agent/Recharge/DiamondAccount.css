@@ -1,0 +1,124 @@
+.image-short img{
+    width: 100px;
+}
+.heading-part{
+    display: flex;
+    gap: 40px;
+}
+.logout{
+    background: #e2e2e2;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+}
+.phone .no{
+    font-weight: 501;
+}
+.phone .blnc{
+    color: grey;
+    font-size: 12px;
+}
+.middle-center{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.middle-center p{
+    font-weight: 501;
+    cursor: pointer;
+    
+}
+.active-menu {
+    font-weight: bold; 
+    
+    border-bottom: 2px solid gray; 
+  }
+
+  .middle-center p {
+    cursor: pointer; 
+    margin: 0 20px; 
+  }
+
+.last-cont{
+    margin-top: 40px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+width: 100%;
+
+}
+.last-cont-1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.usefun-id-text{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid grey;
+    transition: 0.5s;
+}
+.confirm{
+    padding: 9px;
+    background: rgb(191,0,237);
+    border: none;
+    
+    color: white;
+    font-weight: 501;
+    font-size: 14px;
+    width: 150px;
+    height: 50px;
+    
+}
+.button-sub{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.last-last-cont{
+    width: 100%;
+    margin-top: 20px;
+    
+
+}
+.last-last-cont-div{
+    display: flex;
+    justify-content: flex-start;
+}
+.last-last-cont{
+    width: 30%;
+    
+}
+.submit-new{
+    padding: 9px;
+background: rgb(40, 151, 248);
+border: none;
+color: white;
+font-weight: 501;
+width: 100px;
+height: 40px;
+margin-top: 45px;
+}
+.pro-img{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.pro-img img{
+    width: 40px;
+}
+.pro-img p{
+    font-weight: 501;
+    font-size: 12px;
+    
+}
+.flex-base{
+    display: flex;
+    flex-direction: column;
+}
+.profile-data{
+    margin-top: 40px;
+}

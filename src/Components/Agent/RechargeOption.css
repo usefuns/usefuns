@@ -1,0 +1,17 @@
+
+.last-last-cont-div{
+display: flex;
+
+flex-direction: column;
+}
+.button-btn-recharge button{
+    padding: 9px;
+    background: rgb(40, 151, 248);
+    border: none;
+    
+    color: white;
+    font-weight: 501;
+}
+.button-btn-recharge{
+    margin-top: 40px;
+}

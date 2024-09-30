@@ -1,0 +1,40 @@
+.btn_btn1{
+    background-color: #058D9E;
+    
+    border: none;
+    padding: 10px;
+    
+    color: white;
+    font-weight: 501;
+    width: 150px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.btn_btn2{
+    border: none;
+    padding: 10px;
+    background:#BF00ED;
+    color: white;
+    font-weight: 501;
+    width: 150px;
+    margin-top: 20px;
+}
+.form h3{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.input_fields label{
+    margin-bottom: 10px;
+}
+.input_file input{
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+.input_input2 label{
+    margin-bottom: 10px;
+}
+.input_input2 input{
+    padding: 10px;
+    border: 1px solid black;
+}

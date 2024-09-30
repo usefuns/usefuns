@@ -1,0 +1,12 @@
+.gift_table{
+    width: 100%;
+}
+.gift_table tr{
+    width: 100%;
+    display: flex;
+}
+.gift_table th{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}

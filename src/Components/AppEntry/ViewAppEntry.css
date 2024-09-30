@@ -1,0 +1,64 @@
+/* 
+
+td img{
+    width: 40px;
+}
+
+.selectbar{
+    width: 160px;
+}
+.viewappentry .selectbar{
+    border: 1px solid grey;
+    width: 130px;
+    background: transparent;
+}
+.viewappentry-row1{
+    display: flex;
+    
+    margin-bottom: 20px;
+}
+.viewapp-head{
+    width: 100% !important;
+}
+.viewappentry-head{
+    width: 50% !important;
+}
+.viewappentry-row2{
+    display: flex;
+    gap: 200px;
+    margin-bottom: 10px;
+}
+.viewappentry h2{
+    margin-bottom: 20px;
+} */
+.addapp-entry{
+    background-color: #058D9E;
+    
+    border: none;
+    padding: 10px;
+    
+    color: white;
+    font-weight: 501;
+    width: 150px;
+    margin-right: 10px;
+    margin-top: 20px;
+} 
+
+.viewappentry-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  .viewappentry-row2 td {
+    padding: 8px; 
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .viewappentry-row2 img {
+    max-width: 100px; 
+    max-height: 100px; 
+    display: block; 
+    margin: 0 auto;
+  }

@@ -1,0 +1,15 @@
+.search-btn {
+  background-color: #bf00ed !important;
+  border: 0;
+}
+
+.action-btn {
+  background-color: #fff;
+  padding: 0 4px;
+  border: 2px solid #ccc;
+  width: 100px;
+}
+
+.input-fields input {
+  width: 200px;
+}

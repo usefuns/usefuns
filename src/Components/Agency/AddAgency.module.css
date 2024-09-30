@@ -1,0 +1,52 @@
+
+.main{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+   
+}
+.form label {
+    margin-top: 15px;
+    margin-bottom: 8px; 
+   font-weight: 600;
+}
+
+.form input {
+    width: 35%;
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+}
+
+.btn button{
+    padding: 12px 45px;
+    margin-top: 30px;
+
+    
+}
+.cancelbtn{
+    background-color: #058D9E;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.submitbtn{
+    background-color: #BF00ED;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.selectadmin{
+    width: 190px;
+}
